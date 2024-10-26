@@ -11,7 +11,7 @@ public class ARModelSpawner : MonoBehaviour
     void Start()
     {
         // Hide all models except the first one
-        for (int i = 1; i < models.Length; i++)
+        for (int i = 0; i < models.Length; i++)
         {
             models[i].SetActive(false);
         }
