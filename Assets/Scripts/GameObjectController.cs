@@ -50,11 +50,11 @@ public class GameObjectController : MonoBehaviour
 
     void EnlargeObject()
     {
-        transform.localScale *= 2f; // Increase size by 50%
+        transform.localScale *= 1.5f; // Increase size by 50%
     }
 
     void ShrinkObject()
     {
-        transform.localScale /= 2f; // Decrease size back by 50%
+        transform.localScale /= 1.5f; // Decrease size back by 50%
     }
 }
